@@ -1,0 +1,14 @@
+@media (max-width:1024px){
+    .main-menu{
+        visibility: hidden;
+    }
+    .mobile{
+        position:fixed;
+        top: 40px;
+        right:5%;
+        visibility: visible;
+         }
+    .list-item{
+        visibility:hidden;
+    }
+}

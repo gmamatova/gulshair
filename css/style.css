@@ -1,0 +1,164 @@
+
+.img {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-color: rgba(174, 172, 187, 0.22);
+}
+/*a,a:hover{
+    text-decoration: none;
+    color: #616161;
+}
+
+header {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    padding: 50px 0;
+}
+
+header nav {
+    float: right;
+    position: relative;
+}
+
+#start {
+    background: #111111;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+*/
+/*########OUR TEAM########*/
+
+#our-team{
+    background: #ffffff;
+    position:relative;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+
+}
+.our-slide{
+    margin-top: 230px;
+}
+/*.section-title{
+    font-size: 44px;
+    text-align: center;
+     color: #040404;
+    font-weight: 300;
+    position: relative;
+}
+.section-title span{
+    font-weight: 600;
+}
+.section-title:before, .section-title:after{
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 99px;
+    background: #fcac45;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -17px;
+}
+.section-title:after{
+    width: 68px;
+    bottom: -30px;
+    background: #fdc57c;
+}*/
+.our-box{
+    text-align: center;
+    color: #040404;
+
+}
+.our-box img{
+    margin-top:40px;
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+}
+.our-box h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+
+}
+.line{
+    width: 70px;
+    height: 2px;
+    background-color: rgba(108, 78, 97, 0.27);
+    display: block;
+    margin: 5px auto;
+}
+.line1 {
+    width: 70px;
+    height: 2px;
+    background-color: #fcac45;
+    display: block;
+    margin: 5px auto;
+}
+/*.dev{
+    color:#fdc57c;
+}
+/*.our-box span{
+ /*   font-size: 16px;*/
+   /* margin-bottom: 25px;
+    display: inline-block;
+}
+*/
+.our-box p{
+    font-size: 14px;
+}
+/*#services{
+    padding: 60px 0;
+}
+.services-description{
+    margin-top: 80px;
+    font-style: italic;
+    font-size: 16px;
+    color: #6c6c6c;
+    text-align: center;
+}
+
+.services-icon {
+    display: flex;
+    width: 122px;
+    height: 122px;
+    font-size: 54px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+margin:auto;
+    text-decoration: none;
+    color: #3c3c3c;
+    border: 3px solid #fcac45;
+/*    border-radius: 50%;*/
+   /* font-weight: 700;
+    transition: all 0.5s;
+}
+
+.services-icon:hover{
+    background: #fcac45;
+    border: none;
+
+}
+.services-text {
+    text-align: center;
+}
+.services-text h4 {
+    text-transform: uppercase;
+    padding: 5px;
+}
+.services-text-p{
+    font-size: 15px;
+}
+
